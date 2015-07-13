@@ -72,6 +72,8 @@ void LayoutManager::replaceItem(LayoutItem* item1, LayoutItem* item2)
    }
    items.append(item2);
    invisibleItems.append(item1);
+   item1->widget->setVisible(item1->visible);
+   item2->widget->setVisible(item2->visible);
    addWidget(item2);
 }
 
