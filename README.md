@@ -1,5 +1,5 @@
-qt-layout
-=========
+Qt Flexible Layout
+==================
 
 Qt5 Dynamic Layout Management using CMake and C++
 
