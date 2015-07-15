@@ -66,3 +66,8 @@ for (int i = 0; i < profile->numItems(); i++) {
    layoutMap.insert(i+1, item); // see previous line comment
 }
 ```
+
+License
+=======
+
+Qt5 is distributed under a (dual-licensing)[http://www.qt.io/qt-licensing-terms/] plan, of which this project is specifically subject to its open-source license, which is the LGPL v. 3.  This project thus includes a copy of the LGPL v. 3 in the (LICENSE)[LICENSE] file.
