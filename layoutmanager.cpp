@@ -39,9 +39,11 @@ void LayoutManager::addWidget(LayoutItem* item)
    if (item->visible) {
       items.append(item);
       layout->addWidget(item->widget, item->row, item->col, item->rowSpan, item->colSpan);
+      item->widget->setVisible(true);
    }
    else {
       invisibleItems.append(item);
+      item->widget->setVisible(false);
    }
 }
 
