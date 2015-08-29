@@ -23,3 +23,5 @@ target_link_libraries(${PROJECT_NAME}
    ${Qt5Gui_LIBRARIES}
 )
 
+install(TARGETS ${PROJECT_NAME} DESTINATION lib)
+
