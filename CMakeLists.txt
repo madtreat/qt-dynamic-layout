@@ -24,4 +24,5 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
+install(FILES profile.ini DESTINATION ext/qt-layout)
 
